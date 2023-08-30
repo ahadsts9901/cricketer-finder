@@ -1,0 +1,14 @@
+* {
+    font-family: "Josefin Sans", sans-serif;
+    outline: none;
+    font-weight: 600;
+}
+
+i,
+p,
+a,
+h1,
+h2,
+h3 {
+    margin: 0 !important;
+}
