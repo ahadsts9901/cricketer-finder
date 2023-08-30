@@ -12,3 +12,62 @@ h2,
 h3 {
     margin: 0 !important;
 }
+
+form>*:focus,
+form>*:active,
+form>*:hover {
+    box-shadow: 0 0 4px #e4e4e4;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    padding: 1em;
+    gap: 1em;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/* scroll bars */
+
+::-moz-scrollbar {
+    height: 6px;
+    width: 6px;
+    background-color: #2e2545;
+}
+
+::-moz-scrollbar-track {
+    background-color: #2e2545;
+}
+
+::-moz-scrollbar-thumb {
+    background-color: #f47538;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+    background-color: #2e2545;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #2e2545;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f47538;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    padding: 1em;
+    gap: 1em;
+    width: 15em;
+    height: 20em;
+    border: 2px dashed #e4e4e4;
+}

@@ -1,4 +1,4 @@
-let playername = "Asif ali";
+let playername = "babar azam";
 
 fetch(
     `https://unofficial-cricbuzz.p.rapidapi.com/players/search?plrN=${playername}`,

@@ -24,9 +24,24 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="flex flex-col justify-right items-center gap-[1em] w-[100vw] h-[100vh] bg-[#2e2545] p-[2em_1em]">
 
-    
+    <h1 class="text-[1.5em] text-[#f47538]">Cricketer <span class="text-[#fefefe]">Finder</span></h1>
+    <form onsubmit="cricketer(event)" class="w-[100%] flex justify-center items-center gap-[1em]">
+        <input required type="text" placeholder="Enter Cricketer Name..."
+            class="w-[100%] p-[0.6em] rounded-[5px] bg-[#fefefe] text-[#212121]">
+        <button type="submit" class="w-[5em] p-[0.6em] rounded-[5px] bg-[#f47538] text-[#e7eaf4]">Search</button>
+    </form>
+
+    <h1 class="hidden ins h-[100%] text-[1.5em] text-[#fefefe] flex flex-col justify-center items-center w-[100%] text-center">Get Started By Searching<span class="text-[#f47538]">Player's Name</span></h1>
+
+    <div class="result">
+        <div class="card">
+            <img src="https://avatars.githubusercontent.com/u/120649081?v=4" class="w-[5em] h-[5em] object-cover rounded-[100%] border-[2px] border-[#fefefe]">
+            <h2 id="name" class="w-[100%] text-center text-[#fefefe]">Muhammad Ahad</h2>
+
+        </div>
+    </div>
 
     <!-- moment js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
